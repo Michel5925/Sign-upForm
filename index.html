@@ -7,15 +7,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <img class="scenery" src="images/scenery.png" alt="A beautiful picture with flowers, trees and mountains">
-        <img class="moon" src="images/image.png" alt="A picture of the moon">
-        <div class="shade"></div>
-        <h1>Dreams</h1>
-    </div>
+    <div class="wrapper">
+        <div class="container1">
+            <img class="scenery" src="images/scenery.png" alt="A beautiful picture with flowers, trees and mountains">
+            <img class="moon" src="images/image.png" alt="A picture of the moon">
+            <div class="shade"></div>
+            <h1>Dreams</h1>
+        </div>
 
-    <p>This is not a real online service! You know you need something
-        like this in your life to help you realize your deepest dreams.
-        Sign up now to get started.</p>
+        <div class="Container2">
+            <p class="intro">This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.</p>
+
+                <form action="example.com/path" method="post">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="John">
+
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Doe">
+
+                    <label for="userEmail">Email</label>
+                    <input type="email" name="email" id="userEmail" placeholder="you@example.com">
+
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="number" name="phoneNumber" id="phoneNumber" placeholder="1234567890">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword">
+                </form>
+        </div>
+    </div>
 </body>
 </html>
