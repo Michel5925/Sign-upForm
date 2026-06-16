@@ -91,3 +91,30 @@ label {
     height: 4vh;
     font-size: 2vh;
 }
+
+button {
+    position: relative;
+    border: 5px solid gold;
+    border-radius: 1vh;
+    color: white;
+    font-size: 2vh;
+    background-color: #596D48;
+    left: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+input {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 1vh;
+}
+
+input:user-invalid {
+    border-color: red;
+}
+
+input:user-valid {
+    border-color: green;
+}

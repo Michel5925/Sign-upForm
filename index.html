@@ -38,8 +38,8 @@
                     <br><br>
 
                     <div class="field">
-                        <label for="userEmail">Email</label>
-                        <input type="email" name="email" id="userEmail" placeholder="you@example.com">
+                        <label for="userEmail">Email *</label>
+                        <input type="email" name="email" id="userEmail" placeholder="you@example.com" required>
                     </div>
 
                     <div class="field">
@@ -50,17 +50,19 @@
                     <br><br>
 
                     <div class="field">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <label for="password">Password *</label>
+                        <input type="password" name="password" id="password" required>
                     </div>
 
                     <div class="field">
-                        <label for="confirmPassword">Confirm Password</label>
-                        <input type="password" name="confirmPassword" id="confirmPassword">
+                        <label for="confirmPassword">Confirm Password *</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" required>
                     </div>
-                </form>
 
-                <button type="submit">Create Account</button>
+                    <br><br>
+
+                    <button type="submit">Create Account</button>
+                </form>
 
                 <p>Already have an Account? Log in</p>
 
